@@ -2427,6 +2427,32 @@ Productivity, Research
 
 </details>
 
+## [Screenpipe](https://github.com/screenpipe/screenpipe)
+24/7 local screen + microphone recording with semantic search and MCP for Claude
+
+<details>
+
+![image](https://raw.githubusercontent.com/screenpipe/screenpipe/main/content/Screenshot%202024-11-21%20at%2011.42.18%E2%80%AFAM.png)
+
+### Category
+Productivity, Personal assistant, Memory
+
+### Description
+- Records screen and microphone 24/7 locally — OCR on every frame, full audio transcription, accessibility tree capture
+- Indexes everything to a local SQLite DB so agents can query "what did I see / say / hear" with semantic search
+- Ships with an MCP server (6 tools: search-content, export-video, list-meetings, activity-summary, search-elements, frame-context) so Claude or any MCP-compatible agent can read the user's full digital memory
+- Extensible via "pipes" — TypeScript plugins that run on a schedule against the recorded data (auto-generate meeting notes, fill CRMs, build digital clones, etc.)
+- Cross-platform (macOS / Windows / Linux), works fully offline with Ollama, llama.cpp, or any local LLM
+- 100% local — no data leaves the machine
+
+### Links
+- [Website](https://screenpi.pe/)
+- [GitHub](https://github.com/screenpipe/screenpipe)
+- [Documentation](https://docs.screenpi.pe/)
+- [Discord](https://discord.gg/screenpipe)
+
+</details>
+
 ## [Smol developer](https://github.com/smol-ai/developer)
 Your own junior AI developer, deployed via E2B UI
 
